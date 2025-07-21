@@ -7,32 +7,42 @@
 
 /* global styles */
 
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins&display=swap");
 
 body {
-    font-family: "Poppins", sans-serif;
-    background-color: #a4c2d1; /* egg-blue */
+  font-family: "Poppins", sans-serif;
+  background-color: #a4c2d1; /* egg-blue */
 }
 
-h1, h3 {
-    font-family: "DM Serif Display", serif;
-    color: #184f63; /* dark-blue */
+h1,
+h3 {
+  font-family: "DM Serif Display", serif;
+  color: #184f63; /* dark-blue */
+}
+
+/* hero */
+
+#hero {
+  min-height: 500px;
+  padding: 5% 7%;
+  background: url("../images/background.webp") 50% 70% / cover;
+  background-color: #dbdcde; /* light-gray */
 }
 
 /* about */
 
 #about {
-    background: white;
+  background-color: white;
 }
 
 /* portfolio */
 
 #portfolio {
-    background-color: #dbdbdb; /* light-gray */
+  background-color: #dbdbdb; /* light-gray */
 }
 
 /* contact */
 
 #contact {
-    background-color: white
+  background-color: white;
 }
