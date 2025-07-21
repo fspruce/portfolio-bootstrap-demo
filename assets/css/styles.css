@@ -15,7 +15,7 @@ body {
 }
 
 h1,
-h3 {
+h2 {
   font-family: "DM Serif Display", serif;
   color: #184f63; /* dark-blue */
 }
@@ -40,9 +40,30 @@ h3 {
 #portfolio {
   background-color: #dbdbdb; /* light-gray */
 }
+#portfolio .card-title {
+  color: #1f7798; /* mid-blue */
+  font-size: 1.2rem;
+}
+#portfolio .btn-outline-secondary:hover {
+  background-color: #1f7798; /* mid-blue */
+}
+#portfolio .card-text {
+  min-height: 120px;
+}
 
 /* contact */
 
 #contact {
   background-color: white;
+}
+
+/* media queries */
+
+/* Use Bootstrap breakpoint for XL screens */
+@media screen and (min-width: 1200px) {
+  /* Portfolio */
+  /* Fixes all portfolio cards being too tall on xl screens */
+  #portfolio .card-text {
+    min-height: auto;
+  }
 }
